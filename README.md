@@ -18,6 +18,12 @@ The code is designed to be modular and customizable, allowing for easy integrati
 
 <img width="769" alt="image" src="https://github.com/BilalNaseer7773/Grid-Search/assets/90666694/6bbf84cd-84c1-456f-b6b1-7b54a8072971">
 
+## Medium Hard
+<img width="764" alt="image" src="https://github.com/BilalNaseer7773/Grid-Search/assets/90666694/502ebfe2-97e1-4853-880e-954514a03bd7">
+
+<img width="767" alt="image" src="https://github.com/BilalNaseer7773/Grid-Search/assets/90666694/5492bbc6-ac2c-4c15-ac21-19572b937462">
+
+
 ## Hard
 <img width="769" alt="image" src="https://github.com/BilalNaseer7773/Grid-Search/assets/90666694/256a2f71-4dab-4b04-bd3a-f3a9c79060c9">
 

@@ -44,15 +44,15 @@ Each node in the search tree is represented by the Node class. It contains attri
 
 ## Functions and Methods
 
-canFit(x, y, size): Determines if an agent of a given size can fit in a specified location.
-computeSectors(): Computes and stores connected sectors in the grid.
-isConnected(x1, y1, x2, y2, size): Checks if two locations are connected in the grid.
-isLegalAction(x, y, size, action): Determines if an action is legal at a given location.
-startSearch(sx, sy, gx, gy, size): Initializes the search with start and goal locations.
-estimateCost(x, y, gx, gy): Computes the heuristic function from a given location to the goal.
-searchIteration(): Performs one iteration of the A* search algorithm.
-getOpen(): Retrieves the current open list states.
-getClosed(): Retrieves the current closed list states.
+canFit(x, y, size): Determines if an agent of a given size can fit in a specified location.  <br>
+computeSectors(): Computes and stores connected sectors in the grid.  <br>
+isConnected(x1, y1, x2, y2, size): Checks if two locations are connected in the grid.  <br>
+isLegalAction(x, y, size, action): Determines if an action is legal at a given location.  <br>
+startSearch(sx, sy, gx, gy, size): Initializes the search with start and goal locations.  <br>
+estimateCost(x, y, gx, gy): Computes the heuristic function from a given location to the goal.   <br>
+searchIteration(): Performs one iteration of the A* search algorithm. <br>
+getOpen(): Retrieves the current open list states. <br>
+getClosed(): Retrieves the current closed list states. <br>
 
 
 ## Examples

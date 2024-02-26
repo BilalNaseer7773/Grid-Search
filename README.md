@@ -4,13 +4,13 @@ This repository contains a JavaScript implementation of a search algorithm, desi
 
 ## Contents
 
-Introduction
-Features
-Usage
-Class Structure
-Node Representation
-Functions and Methods
-Examples
+Introduction <br>
+Features  <br>
+Usage   <br>
+Class Structure   <br>
+Node Representation  <br>
+Functions and Methods  <br>
+Examples  <br>
 
 
 ## Introduction

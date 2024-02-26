@@ -1,12 +1,66 @@
 # Grid-Search
 
-This code is a JavaScript implementation of a search algorithm, primarily used for pathfinding in a grid-based environment. The main components include:
+This repository contains a JavaScript implementation of a search algorithm, designed primarily for pathfinding in grid-based environments. The main focus of this implementation is to provide a flexible and efficient solution for various search scenarios.
 
-A class called Search_Student, which contains methods for initializing the search, performing search iterations, computing heuristics, and checking if actions are legal.
-The Node class, representing a node in the search tree, with attributes such as coordinates, parent node, action, cost, and heuristic.
-Functions for determining if an agent of a given size can fit in a specified location, computing connected sectors, checking if two locations are connected, and computing the cost of actions.
-Implementation of the A* search algorithm using graph search, where nodes are expanded based on their estimated cost plus actual cost.
-The code is designed to be modular and customizable, allowing for easy integration with different grid environments and search configurations.
+## Contents
+
+Introduction
+Features
+Usage
+Class Structure
+Node Representation
+Functions and Methods
+Examples
+
+
+## Introduction
+
+Pathfinding algorithms are essential in various applications such as robotics, video games, and logistics. This JavaScript implementation offers a versatile solution for finding optimal paths in grid-based environments. It is based on the A* search algorithm, enhanced with graph search techniques.
+
+## Features
+
+Flexible grid representation.
+Efficient A* search algorithm implementation.
+Support for different heuristic functions.
+Customizable search configurations.
+Modular and extensible code structure.
+
+## Usage
+
+Include the Search_Student.js file in your JavaScript project.
+Create a grid environment and configure the search parameters.
+Initialize an instance of the Search_Student class with the grid and configuration.
+Start the search by calling the appropriate methods and iterate until completion.
+Retrieve the path or other relevant information from the search results.
+
+
+## Class Structure
+
+The main class in this implementation is Search_Student, which encapsulates the search functionality. It contains methods for initializing the search, performing search iterations, computing heuristics, and checking if actions are legal. Additionally, there is a Node class representing nodes in the search tree.
+
+## Node Representation
+
+Each node in the search tree is represented by the Node class. It contains attributes such as coordinates, parent node, action, cost, and heuristic. These attributes facilitate efficient pathfinding and search progress tracking.
+
+## Functions and Methods
+
+canFit(x, y, size): Determines if an agent of a given size can fit in a specified location.
+computeSectors(): Computes and stores connected sectors in the grid.
+isConnected(x1, y1, x2, y2, size): Checks if two locations are connected in the grid.
+isLegalAction(x, y, size, action): Determines if an action is legal at a given location.
+startSearch(sx, sy, gx, gy, size): Initializes the search with start and goal locations.
+estimateCost(x, y, gx, gy): Computes the heuristic function from a given location to the goal.
+searchIteration(): Performs one iteration of the A* search algorithm.
+getOpen(): Retrieves the current open list states.
+getClosed(): Retrieves the current closed list states.
+
+
+## Examples
+
+Refer to the examples provided in the repository for usage demonstrations and integration with different grid environments. These examples showcase how to initialize the search, configure parameters, and retrieve search results.
+
+
+
 
 ## Easy
 <img width="769" alt="image" src="https://github.com/BilalNaseer7773/Grid-Search/assets/90666694/abdab8f3-a013-46b5-a673-9cf411fd77a6">
